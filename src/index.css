@@ -14,9 +14,12 @@
   color: hsl(186, 34%, 60%);
 }
 
+.highest-bar{
+    background-color: hsl(186, 34%, 50%);
+}
 
 .highest-bar:hover{
-  background-color: hsl(186, 34%, 60%);
+  background-color: hsl(186, 34%, 50%, 50%);
 }
 
 .normal-bar:hover{
