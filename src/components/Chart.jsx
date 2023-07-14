@@ -33,7 +33,7 @@ function Chart(props) {
       >
         {/* Expense on that day */}
         <div
-          className={`${shown} text-xs bg-fontCol p-1 text-chartCard rounded-[4px] opacity-0`}
+          className={`${shown} flex justify-center items-center text-sm  bg-fontCol p-[5px] text-chartCard rounded-[4px] opacity-0 duration-200 h-0`}
         >
           ${bar.amount}
         </div>

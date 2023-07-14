@@ -28,4 +28,7 @@
 
 .shown{
     opacity: 1;
+    height: 23px;
+    position: relative;
+    z-index: 15;
 }
