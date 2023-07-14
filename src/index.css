@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.test {
+  color: hsl(28, 10%, 53%);
+
+  color: hsl(25, 47%, 15%);
+  color: hsl(27, 66%, 92%);
+
+  color: hsl(33, 100%, 98%);
+  color: hsl(10, 79%, 65%);
+  color: hsl(186, 34%, 60%);
+}
+
+
+.highest-bar:hover{
+  background-color: hsl(186, 34%, 60%);
+}
+
+.normal-bar:hover{
+    background-color: hsl(10, 79%, 65%, 50%);
+}
+
+.shown{
+    opacity: 1;
+}
